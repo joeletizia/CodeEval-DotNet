@@ -8,7 +8,7 @@ namespace SelfDescribingNumbers
 {
     public class SimpleSelfDescribingNumberfinder : ISelfDescribingFinder
     {
-        public bool Test(long n)
+        public bool Test(ulong n)
         {
             string numString = n.ToString();
 

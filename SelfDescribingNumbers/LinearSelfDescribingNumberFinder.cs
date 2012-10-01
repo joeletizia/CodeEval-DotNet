@@ -4,7 +4,7 @@ namespace SelfDescribingNumbers
 {
     public class LinearSelfDescribingNumberFinder : ISelfDescribingFinder
     {
-        public bool Test(long n)
+        public bool Test(ulong n)
         {
             bool ret = true;
             string nStr = n.ToString();
