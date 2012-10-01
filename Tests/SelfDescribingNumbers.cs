@@ -46,6 +46,7 @@ namespace Tests
 
         [TestCase(3324332)]
         [TestCase(1211)]
+        [TestCase(34235235232)]
         [Test]
         public void InvalidTestForLinearSelfDescribingNumber(long n)
         {
