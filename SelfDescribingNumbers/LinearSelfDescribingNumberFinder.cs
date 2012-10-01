@@ -4,11 +4,13 @@ namespace SelfDescribingNumbers
 {
     public class LinearSelfDescribingNumberFinder : ISelfDescribingFinder
     {
+        #region ISelfDescribingFinder Members
+
         public bool Test(ulong n)
         {
             bool ret = true;
             string nStr = n.ToString();
-            int[] result = new int[nStr.Length];
+            var result = new int[nStr.Length];
 
             //loop through the nStr while incremementing the value at the current index in result.
             for (int i = 0; i < nStr.Length; i++)
@@ -28,5 +30,7 @@ namespace SelfDescribingNumbers
 
             return ret;
         }
+
+        #endregion
     }
 }

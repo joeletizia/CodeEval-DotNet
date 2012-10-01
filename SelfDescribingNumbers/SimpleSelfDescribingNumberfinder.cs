@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace SelfDescribingNumbers
 {
     public class SimpleSelfDescribingNumberfinder : ISelfDescribingFinder
     {
+        #region ISelfDescribingFinder Members
+
         public bool Test(ulong n)
         {
             string numString = n.ToString();
@@ -15,7 +13,7 @@ namespace SelfDescribingNumbers
             for (int i = 0; i < numString.Length; i++)
             {
                 int count = charCountInString(i.ToString()[0], numString);
-                
+
                 if (count + 48 != numString[i])
                 {
                     return false;
@@ -24,6 +22,8 @@ namespace SelfDescribingNumbers
 
             return true;
         }
+
+        #endregion
 
         private static int charCountInString(char character, string str)
         {
