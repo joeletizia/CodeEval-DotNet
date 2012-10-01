@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfDescribingNumbers", "SelfDescribingNumbers\SelfDescribingNumbers.csproj", "{6E3D2ED9-CC72-4845-A238-0B03C332E9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{88AA87B6-61A3-4C3B-8570-47F3A30A8F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfPrimes", "SumOfPrimes\SumOfPrimes.csproj", "{88C554D1-E09C-4C3B-839E-6AE435F4F5DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E3D2ED9-CC72-4845-A238-0B03C332E9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3D2ED9-CC72-4845-A238-0B03C332E9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3D2ED9-CC72-4845-A238-0B03C332E9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3D2ED9-CC72-4845-A238-0B03C332E9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88AA87B6-61A3-4C3B-8570-47F3A30A8F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88AA87B6-61A3-4C3B-8570-47F3A30A8F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88AA87B6-61A3-4C3B-8570-47F3A30A8F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88AA87B6-61A3-4C3B-8570-47F3A30A8F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C554D1-E09C-4C3B-839E-6AE435F4F5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C554D1-E09C-4C3B-839E-6AE435F4F5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C554D1-E09C-4C3B-839E-6AE435F4F5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C554D1-E09C-4C3B-839E-6AE435F4F5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
