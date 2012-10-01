@@ -1,1 +1,1 @@
-This solution is a collection of projects that are solutions to challenges posted on CodeEval.com.
+This solution is a collection of projects that are solutions to challenges posted on www.CodeEval.com.
