@@ -20,6 +20,7 @@ namespace Tests
 
         [TestCase(3324332)]
         [TestCase(1211)]
+        [TestCase(444231233)]
         [Test]
         public void InvalidTestForSelfDescribingNumber(long n)
         {
