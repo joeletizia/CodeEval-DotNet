@@ -16,7 +16,7 @@ namespace SumOfPrimes
             primes.Add(1);
 
             //test i for primality until list of primes is size desired
-            while (primes.Count < n)
+            while (primes.Count >= n)
             {
                 bool prime = true;
 
